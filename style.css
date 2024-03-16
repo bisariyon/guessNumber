@@ -1,0 +1,95 @@
+/* General Styles */
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 300px;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-color: #f5f5dc; /* Wheat background */
+}
+
+/* Guessing Game Styles */
+.lastResult {
+    color: #ff6347; /* Tomato red */
+    padding: 7px;
+}
+
+.guesses {
+    color: #4682b4; /* Chartreuse */
+    padding: 7px;
+}
+
+button {
+    background-color: #2f4f4f; /* Dark slate gray */
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 30px;
+}
+
+#subt {
+    background-color: #adff2f; /* Green yellow */
+    color: blue;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#guessField {
+    color: #000;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 25px;
+    border: 5px solid #a9a9a9; /* Dark gray */
+    text-align: center;
+}
+
+#guess {
+    font-size: 55px;
+    margin-top: 70px;
+    color: #fff;
+}
+
+/* Wrapper Styles */
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 500px;
+    height: 650px;
+    background-color: #3cb371; /* Medium sea green */
+    color: #fff;
+    font-size: 25px;
+}
+
+h1 {
+    background-color: #dc143c; /* Crimson red */
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.new {
+    background-color: #4682b4; /* Steel blue */
+    color: #87ceeb; /* Sky blue */
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+}
